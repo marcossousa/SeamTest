@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FILESYSTEMS APPLICATION_NAME="SeamTest" ENTITY="FileSystems"
+ VERSION="2.0.0.cr1" WORKSPACE_HOME="./WebContent/WEB-INF">
+ <FILESYSTEM ENTITY="FileSystemFolder" LOCATION="%workspace.home%" NAME="WEB-INF"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" INFO="Content-Type=Web"
+  LOCATION="%workspace.home%/.." NAME="WEB-ROOT"/>
+ <FILESYSTEM ENTITY="FileSystemFolder"
+  LOCATION="%workspace.home%/../../JavaSource" NAME="src"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" LOCATION="%workspace.home%/lib" NAME="lib"/>
+ <FILESYSTEM ENTITY="FileSystemFolder"
+  LOCATION="%workspace.home%/classes" NAME="classes"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/commons-beanutils.jar" NAME="lib-commons-beanutils.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/commons-collections.jar" NAME="lib-commons-collections.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/commons-digester.jar" NAME="lib-commons-digester.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/commons-logging.jar" NAME="lib-commons-logging.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/jstl.jar" NAME="lib-jstl.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/standard.jar" NAME="lib-standard.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jsf-facelets.jar" NAME="lib-jsf-facelets.jar"/>
+ <FILESYSTEM ENTITY="FileSystemFolder" LOCATION="%eclipse.project%" NAME="flet001"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/jsf-tlds.jar" NAME="lib-jsf-tlds.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar" INFO="hidden=yes"
+  LOCATION="%workspace.home%/lib/common-annotations.jar" NAME="lib-common-annotations.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/antlr.jar" NAME="lib-antlr.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/cglib.jar" NAME="lib-cglib.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/dom4j.jar" NAME="lib-dom4j.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/hibernate-annotations.jar" NAME="lib-hibernate-annotations.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/hibernate-commons-annotations.jar" NAME="lib-hibernate-commons-annotations.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/hibernate-validator.jar" NAME="lib-hibernate-validator.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/javassist.jar" NAME="lib-javassist.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jboss-el.jar" NAME="lib-jboss-el.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jboss-seam-ui.jar" NAME="lib-jboss-seam-ui.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jboss-seam.jar" NAME="lib-jboss-seam.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jsf-api.jar" NAME="lib-jsf-api.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jsf-impl.jar" NAME="lib-jsf-impl.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jta.jar" NAME="lib-jta.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/persistence-api.jar" NAME="lib-persistence-api.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/richfaces-api.jar" NAME="lib-richfaces-api.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/richfaces-impl.jar" NAME="lib-richfaces-impl.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/richfaces-ui.jar" NAME="lib-richfaces-ui.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/asm-attrs.jar" NAME="lib-asm-attrs.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/asm.jar" NAME="lib-asm.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/hibernate.jar" NAME="lib-hibernate.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/urlrewritefilter.jar" NAME="lib-urlrewritefilter.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/jboss-seam-ioc.jar" NAME="lib-jboss-seam-ioc.jar"/>
+ <FILESYSTEM ENTITY="FileSystemJar"
+  LOCATION="%workspace.home%/lib/spring.jar" NAME="lib-spring.jar"/>
+ <WEB ENTITY="JstWeb" MODEL_PATH="/web.xml" SERVLET_VERSION="2.5">
+  <MODULE ENTITY="WebJSFModule" MODEL_PATH="/faces-config.xml"
+   ROOT="WEB-ROOT" SRC="src" URI="/WEB-INF/faces-config.xml"/>
+ </WEB>
+</FILESYSTEMS>

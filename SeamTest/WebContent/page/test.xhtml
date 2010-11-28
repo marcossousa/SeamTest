@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:rich="http://richfaces.org/rich"
+      xmlns:a4j="http://richfaces.org/a4j"
+      xmlns:s="http://jboss.com/products/seam/taglib">
+      <body>
+      <h:form>
+      	First Name: <input jsfc="h:inputText" value="#{testBean.firstName}"/><br />
+      	Last Name: <input jsfc="h:inputText" value="#{testBean.lastName}"/><br/>
+      	<input type="button" jsfc="a4j:commandButton" value="Hello" actionListener="#{testBean.hello}" reRender="result" limitToList="false"/><br/>
+      	<h:outputText id="result" value="#{testBean.result}"></h:outputText>
+      </h:form>
+      </body>
+</html>

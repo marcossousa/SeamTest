@@ -1,0 +1,16 @@
+h1. SeamTest
+
+h2. How to setup application
+
+You can run the this application running the following commands:
+
+<pre>  $ git clone git://github.com/marcossousa/SeamTest.git && cd SeamTest
+  $ cp hsqldb-1.8.0.7.jar [TOMCAT_HOME]/lib
+  $ Open eclipse with WTP (Preferable JbossTools)
+  $ Import SeamTest Project
+  $ Add it to Tomcat and Run</pre>
+
+h2. About
+
+This project is the example created in this screamcast http://www.devmedia.com.br/articles/viewcomp.asp?comp=7696  (PT-BR). 
+This screamcast show how to create and configure a minimum Jboss Seam application.
